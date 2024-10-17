@@ -1,0 +1,61 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+    <title>Evenimente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logout-btn,
+        .home-btn,
+        .delete-btn,
+        .modify-btn{
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 0;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .logout-btn:hover,
+        .home-btn:hover,
+        .delete-btn:hover,
+        .modify-btn:hover {
+            background-color: #456fa0;
+        }
+
+        .user-icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Panou de control</h1>
+        </div>
+            <a href="admin.modif.php" class="modify-btn">Modifică parola</a>
+            <a href="logout.php" class="logout-btn">Logout</a>
+            <a href="admin.delete.php" class="delete-btn">Sterge cont</a>
+            <!--<a href="/proiect1/site/home.php" class="home-btn">Website</a>-->
+    </header>
+</body>
+
+</html>

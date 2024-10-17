@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            color: #333;
+        }
+
+        .header {
+            background-color: white;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .nav-bar {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .nav-bar a {
+            text-decoration: none;
+            color: black;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        .nav-bar a:hover {
+            text-decoration: underline;
+        }
+
+        .line-divider {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .site-name {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .slogan {
+            text-align: center;
+            font-family: Garamond, serif;
+            margin-bottom: 10px;
+        }
+
+        .logout-btn, .cont-btn .nav-btn {
+            background-color: white;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .login-btn:hover, .logout-btn:hover , .cont-btn:hover{
+            text-decoration: underline;
+        }
+
+        .logout-btn {
+            float: right;
+            margin-right: 0px;
+        }
+
+        .cont-btn {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .content {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <a href="home.php" class="nav-btn">Acasa</a>
+        <a href="aboutUs.php" class="nav-btn">Despre Noi</a>
+        <a href="Evenimente.php" class="nav-btn">Evenimente</a>
+        <!--<a href="" class="nav-btn">Promotii</a> -->
+        <button class="logout-btn"><a href="logout.php">Logout</a></button>
+        <button class="cont-btn"><a href="cont.php">Cont</a></button>
+        
+    </div>
+
+    <div class="line-divider"></div>
+
+    <header>
+        <h1>Descoperă Cele Mai Tari Evenimente!</h1>
+        <p>Bine ai venit pe platforma noastră de evenimente. Explorează și participă la cele mai diverse și captivante experiențe din orașul tău.</p>
+    </header>
+
+    <div class="content">
+    </div>
+</body>
+
+</html>
